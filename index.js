@@ -1,6 +1,6 @@
 var Telegram = require('node-telegram-bot-api');
 var request = require("request");
-var token = '8083786189:AAG2GcJKyD0xaEZXzzJOsSwzBNqrVy7KYP8';
+var token = process.env.TELEGRAM_TOKEN;
 
 var opt = {
   polling: true
